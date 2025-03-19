@@ -5,6 +5,7 @@ import inspect
 if not hasattr(inspect, 'getargspec'):
     inspect.getargspec = inspect.getfullargspec
 from web3 import Web3, Account
+from web3connectpy import connect
 from dotenv import load_dotenv
 import getpass
 
