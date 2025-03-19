@@ -1,0 +1,3 @@
+web3==5.31.1
+python-dotenv
+web3connectpy
